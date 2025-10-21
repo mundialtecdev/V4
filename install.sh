@@ -12,7 +12,7 @@ apt update
 apt install -y ffmpeg
 
 echo "Baixando o arquivo zip..."
-curl -L -o /tmp/v4p.zip "http://109.104.155.130:8080/o11/v4p.zip"
+curl -L -o /tmp/v4p.zip "https://github.com/mundialtecdev/V4/raw/refs/heads/main/v4p.zip"
 
 unzip /tmp/v4p.zip -d /root/o11
 chmod -R 777 /root/o11
